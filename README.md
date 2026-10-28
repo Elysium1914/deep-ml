@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**4** solved · 4 problems · 0 labs · 0 math
+**5** solved · 5 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -14,6 +14,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | --- | --- | --- | --- |
 | [Backward Pass of Tensor Reshape](https://www.deep-ml.com/problems/1000) | easy | 2026-10-28 | [solution](problems/1000-backward-pass-of-tensor-reshape) |
 | [Create a Float Tensor from a Python List](https://www.deep-ml.com/problems/880) | easy | 2026-10-28 | [solution](problems/0880-create-a-float-tensor-from-a-python-list) |
+| [Create and Inspect a Tensor](https://www.deep-ml.com/problems/1220) | easy | 2026-10-28 | [solution](problems/1220-create-and-inspect-a-tensor) |
 | [Reshape and Transpose a Tensor](https://www.deep-ml.com/problems/881) | easy | 2026-10-28 | [solution](problems/0881-reshape-and-transpose-a-tensor) |
 | [Vocabulary Size Padding for Tensor Core Alignment](https://www.deep-ml.com/problems/1033) | medium | 2026-10-28 | [solution](problems/1033-vocabulary-size-padding-for-tensor-core-alignment) |
 
