@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**6** solved · 6 problems · 0 labs · 0 math
+**7** solved · 7 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -17,6 +17,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Create and Inspect a Tensor](https://www.deep-ml.com/problems/1220) | easy | 2026-10-28 | [solution](problems/1220-create-and-inspect-a-tensor) |
 | [Reshape and Transpose a Tensor](https://www.deep-ml.com/problems/881) | easy | 2026-10-28 | [solution](problems/0881-reshape-and-transpose-a-tensor) |
 | [Tensor Puzzle: Ones Vector from First Principles](https://www.deep-ml.com/problems/1268) | easy | 2026-10-28 | [solution](problems/1268-tensor-puzzle-ones-vector-from-first-principles) |
+| [Tensor Puzzle: Sum a Vector with a Dot Product](https://www.deep-ml.com/problems/1269) | easy | 2026-10-28 | [solution](problems/1269-tensor-puzzle-sum-a-vector-with-a-dot-product) |
 | [Vocabulary Size Padding for Tensor Core Alignment](https://www.deep-ml.com/problems/1033) | medium | 2026-10-28 | [solution](problems/1033-vocabulary-size-padding-for-tensor-core-alignment) |
 
 ---
