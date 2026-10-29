@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**14** solved · 14 problems · 0 labs · 0 math
+**15** solved · 14 problems · 0 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -26,6 +26,12 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Tensor Puzzle: Upper-Triangular Ones Matrix](https://www.deep-ml.com/problems/1273) | easy | 2026-10-28 | [solution](problems/1273-tensor-puzzle-upper-triangular-ones-matrix) |
 | [Two-Layer MLP Forward Pass](https://www.deep-ml.com/problems/1225) | medium | 2026-10-29 | [solution](problems/1225-two-layer-mlp-forward-pass) |
 | [Vocabulary Size Padding for Tensor Core Alignment](https://www.deep-ml.com/problems/1033) | medium | 2026-10-28 | [solution](problems/1033-vocabulary-size-padding-for-tensor-core-alignment) |
+
+## Math
+
+| | Difficulty | Solved | |
+| --- | --- | --- | --- |
+| [Convolution Arithmetic and Parameter Sharing](https://www.deep-ml.com/math-problems/116) | medium | 2026-10-29 | [solution](math/0116-convolution-arithmetic-and-parameter-sharing) |
 
 ---
 
