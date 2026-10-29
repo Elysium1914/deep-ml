@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**13** solved · 13 problems · 0 labs · 0 math
+**14** solved · 14 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -12,6 +12,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
+| [Apply Zero Padding to an Image](https://www.deep-ml.com/problems/239) | easy | 2026-10-29 | [solution](problems/0239-apply-zero-padding-to-an-image) |
 | [Backward Pass of Tensor Reshape](https://www.deep-ml.com/problems/1000) | easy | 2026-10-28 | [solution](problems/1000-backward-pass-of-tensor-reshape) |
 | [Convert RGB Image to Grayscale](https://www.deep-ml.com/problems/237) | easy | 2026-10-29 | [solution](problems/0237-convert-rgb-image-to-grayscale) |
 | [Create a Float Tensor from a Python List](https://www.deep-ml.com/problems/880) | easy | 2026-10-28 | [solution](problems/0880-create-a-float-tensor-from-a-python-list) |
