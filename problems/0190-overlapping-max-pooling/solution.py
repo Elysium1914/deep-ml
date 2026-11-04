@@ -1,26 +1,27 @@
 import numpy as np
 
 def overlapping_max_pool2d(x: np.ndarray, kernel_size: int = 3, stride: int = 2) -> np.ndarray:
-    out=[]
+    out = []
     for batch in x:
-        batchout=[]
+        batchout = []
         for channel in batch:
-            chan_height,chan_len=channel.shape
-            nout=(chan_height-kernel_size)//stride + 1
-            lout=(chan_len-kernel_size)//stride + 1
-            chanout=[]
+            chan_height, chan_len = channel.shape
+            nout = (chan_height - kernel_size) // stride + 1
+            lout = (chan_len - kernel_size) // stride + 1
+            chanout = []
             for i in range(nout):
-                row=[]
+                row = []
                 for j in range(lout):
-                    pool=channel[i*stride:i*stride+kernel_size,j*stride:j*stride+kernel_size]
+                    pool = channel[i*stride:i*stride+kernel_size,
+                                   j*stride:j*stride+kernel_size]
                     elements=[]
                     for element in np.nditer(pool):
                         elements.append(element.item())
-                    poolmax=max(elements)
-                    row.append(poolmax)
-                chanout.append(row)
-            batchout.append(chanout)
-        out.append(batchout)
+                    maxelement=max(elements)
+                    row.append(maxelement)
+                chanout.append(row)       # once per row (after j loop)
+            batchout.append(chanout)      # once per channel (after i loop)
+        out.append(batchout)              # once per batch item (after channel loop)
     outarr=np.array(out)
     return outarr
     """
